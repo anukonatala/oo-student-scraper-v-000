@@ -43,6 +43,7 @@ class Scraper
                :profile_quote=>profile_quote,
                :blog=>blog_link,
                :bio=> bio}
+               student_profile_hash.delete_if {|key, value| value == "" || value == nil}
     student_profile_hash
    
   end
