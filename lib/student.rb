@@ -12,7 +12,7 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-    new_student = self.new()
+    new_student = self.new(students_array)
     
   end
 
