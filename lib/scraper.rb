@@ -43,7 +43,6 @@ class Scraper
                :profile_quote=>profile_quote,
                :blog=>blog_link,
                :bio=> bio}
-                binding.pry
     student_profile_hash
    
   end
